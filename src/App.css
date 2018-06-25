@@ -1,0 +1,29 @@
+.app-header {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  background-color: #fafafa;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.app-header div {
+  margin: 10px 20px;
+  cursor: pointer;
+}
+
+.app-form form {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+
+.app-posts {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.app-post {
+  width: 30%;
+}
